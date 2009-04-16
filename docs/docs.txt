@@ -1,0 +1,12 @@
+WoWRoster Documents
+Copyright (C) 2002-2008 The WoWRoster Dev Team
+Package updated December 21, 2008
+$Id: docs.txt 1926 2008-12-21 07:23:37Z Zanix $
+
+Please check out our WiKi - http://www.wowroster.net/MediaWiki.html
+
+
+
+--------------------------------------
+The WoWRoster Dev Team
+http://www.wowroster.net
