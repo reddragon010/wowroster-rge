@@ -365,6 +365,7 @@ class update
 						{
 							list($region) = explode(':',$char['timestamp']['init']['datakey']);
 							$region = strtoupper($region);
+							$region = substr($region,0,2);
 						}
 						else
 						{
@@ -514,6 +515,7 @@ class update
 							{
 								list($region) = explode(':',$guild['timestamp']['init']['datakey']);
 								$region = strtoupper($region);
+								$region = substr($region,0,2);
 							}
 							else
 							{
