@@ -110,7 +110,9 @@ class roster_error
 			E_USER_ERROR      => 'Roster Error',
 			E_USER_WARNING    => 'Roster Warning',
 			E_USER_NOTICE     => 'Roster Notice',
-			E_STRICT          => 'Runtime Notice'
+			E_STRICT          => 'Runtime Notice',
+			E_DEPRECATED	  => 'Deprecated',
+			E_USER_DEPRECATED => 'Roster Deprecated',
 		);
 		// NOTE: E_ERROR, E_PARSE, E_CORE_ERROR, E_CORE_WARNING, E_COMPILE_ERROR and E_COMPILE_WARNING
 		// error levels will be handled as per the error_reporting settings.

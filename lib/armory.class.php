@@ -593,12 +593,14 @@ class RosterArmory
 		if( $this->region == 'US' )
 		{
 			//$base_url = 'http://localhost:18080/?url=http://www.wowarmory.com/';
-			$base_url = 'http://www.wowarmory.com/';
+//			$base_url = 'http://www.wowarmory.com/';
+			$base_url = 'http://arsenal.rising-gods.de';
 		}
 		else
 		{
 			//$base_url = 'http://localhost:18080/?url=http://eu.wowarmory.com/';
-			$base_url = 'http://eu.wowarmory.com/';
+//			$base_url = 'http://eu.wowarmory.com/';
+			$base_url = 'http://arsenal.rising-gods.de';
 		}
 
 		// get request mode
@@ -670,7 +672,7 @@ class RosterArmory
 		}
 
 		$url = $base_url . $mode;
-
+echo '<pre>'; var_dump($url); echo '</pre>';
 		if( $this->debug_url )
 		{
 			echo $url;
